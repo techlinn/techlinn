@@ -6,6 +6,7 @@ class Tech:
         self.website = "https://txchnology.cc"
         self.project = "https://stormss.cc"
         self.location = "Stockholm, Sweden"
+        self.contact = "tech@stormss.cc"
 
     def info(self):
         return {
@@ -14,5 +15,6 @@ class Tech:
             "Website": self.website,
             "Project": self.project,
             "Location": self.location
+            "Contact": self.contact
         }
 ```
