@@ -1,4 +1,4 @@
-```
+```python
 class Tech:
     def __init__(self):
         self.username = "Tech"
@@ -13,7 +13,4 @@ class Tech:
             "Website": self.website,
             "Location": self.location
         }
-
-me = Tech()
-print(me.info())
 ```
