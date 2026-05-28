@@ -1,3 +1,4 @@
+## What is the worst that could happen in `__init__()`?
 ```python
 class Tech:
     def __init__(self):
