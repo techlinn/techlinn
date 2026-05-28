@@ -1,16 +1,19 @@
-## Hi there 👋
+```
+class Tech:
+    def __init__(self):
+        self.username = "Tech"
+        self.age = 19
+        self.website = "https://txchnology.cc"
+        self.location = "Stockholm, Sweden"
 
-<!--
-**techlinn/techlinn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def info(self):
+        return {
+            "Username": self.username,
+            "Age": self.age,
+            "Website": self.website,
+            "Location": self.location
+        }
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me = Tech()
+print(me.info())
+```
