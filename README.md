@@ -3,19 +3,19 @@
 class Tech:
     def __init__(self):
         self.username = "Tech"
-        self.age = 19
+        self.age      = 19
+        self.location = "Stockholm, Sweden"
         self.website  = "https://txchnology.cc"
         self.project  = "https://stormss.cc"
-        self.location = "Stockholm, Sweden"
         self.contact  = "tech@stormss.cc"
 
     def info(self):
         return {
             "Username": self.username,
             "Age":      self.age,
+            "Location": self.location,
             "Website":  self.website,
             "Project":  self.project,
-            "Location": self.location,
             "Contact":  self.contact
         }
 ```
